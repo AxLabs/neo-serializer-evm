@@ -3,6 +3,9 @@ cache/
 artifacts/
 typechain-types/
 
+# Neo reference directory (not part of this repo)
+neo/
+
 # Node
 node_modules/
 npm-debug.log*
