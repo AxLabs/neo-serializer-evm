@@ -1,0 +1,39 @@
+{
+  "name": "@axlabs/neo-serializer",
+  "version": "0.0.1",
+  "description": "Neo blockchain serialization library for Solidity/EVM",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean",
+    "prepublishOnly": "npm run compile && npm run test",
+    "publish:dry-run": "npm publish --dry-run",
+    "publish:public": "npm publish --access public"
+  },
+  "keywords": [
+    "neo",
+    "serialization",
+    "solidity",
+    "evm",
+    "blockchain",
+    "cross-chain"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.3",
+    "chai": "^4.3.10",
+    "hardhat": "^2.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "contracts/libraries/**/*.sol",
+    "contracts/examples/**/*.sol",
+    "README.md",
+    "LICENSE"
+  ]
+}
