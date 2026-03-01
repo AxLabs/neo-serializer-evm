@@ -21,6 +21,10 @@
   ],
   "author": "AxLabs",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxLabs/neo-serializer-evm"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@types/chai": "^4.3.11",
