@@ -5,6 +5,7 @@
 - `package.json` version is updated (for example `0.0.2`).
 - npm Trusted Publishing is configured for `.github/workflows/release.yaml`.
 - You have permission to push tags and create releases.
+- Workflow runtime must use Node `24.x` and npm `11+`.
 
 ## How to release
 
