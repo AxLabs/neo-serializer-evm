@@ -1,6 +1,6 @@
 {
   "name": "@axlabs/neo-serializer-evm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Neo blockchain serialization library for Solidity/EVM",
   "main": "index.js",
   "scripts": {
