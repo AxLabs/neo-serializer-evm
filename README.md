@@ -16,13 +16,13 @@ Neo's serialization format supports:
 ### Installation
 
 ```bash
-npm install @axlabs/neo-serializer
+npm install @axlabs/neo-serializer-evm
 ```
 
 ### Basic Usage
 
 ```solidity
-import "@axlabs/neo-serializer/contracts/libraries/NeoSerializerLib.sol";
+import "@axlabs/neo-serializer-evm/contracts/libraries/NeoSerializerLib.sol";
 
 contract MyContract {
     using NeoSerializerLib for uint256;
@@ -164,7 +164,7 @@ npm install
 The library can be used directly in your contracts without deployment:
 
 ```solidity
-import "@axlabs/neo-serializer/contracts/libraries/NeoSerializerLib.sol";
+import "@axlabs/neo-serializer-evm/contracts/libraries/NeoSerializerLib.sol";
 
 contract MyContract {
     using NeoSerializerLib for uint256;

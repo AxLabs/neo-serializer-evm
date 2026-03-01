@@ -1,5 +1,5 @@
 {
-  "name": "@axlabs/neo-serializer",
+  "name": "@axlabs/neo-serializer-evm",
   "version": "0.0.1",
   "description": "Neo blockchain serialization library for Solidity/EVM",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "blockchain",
     "cross-chain"
   ],
-  "author": "",
+  "author": "AxLabs",
   "license": "Apache-2.0",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
